@@ -1,0 +1,4 @@
+../Core/Src/light_traffic.c:11:6:led_red_and_green	1
+../Core/Src/light_traffic.c:20:6:led_red_and_yellow	1
+../Core/Src/light_traffic.c:29:6:led_green_and_red	1
+../Core/Src/light_traffic.c:38:6:led_yellow_and_red	1
