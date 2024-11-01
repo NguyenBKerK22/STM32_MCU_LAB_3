@@ -109,6 +109,8 @@ int main(void)
 //		  HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin); unit test button
 //	  }
 	  fsm_autorun();
+	  fsm_manual();
+	//  all_led_yellow_on();
 //	  led_red_and_green();
   }
   /* USER CODE END 3 */

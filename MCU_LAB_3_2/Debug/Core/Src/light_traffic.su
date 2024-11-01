@@ -2,3 +2,9 @@
 ../Core/Src/light_traffic.c:20:6:led_red_and_yellow	8	static
 ../Core/Src/light_traffic.c:29:6:led_green_and_red	8	static
 ../Core/Src/light_traffic.c:38:6:led_yellow_and_red	8	static
+../Core/Src/light_traffic.c:47:6:all_led_red_on	8	static
+../Core/Src/light_traffic.c:51:6:all_led_red_off	8	static
+../Core/Src/light_traffic.c:55:6:all_led_yellow_on	8	static
+../Core/Src/light_traffic.c:59:6:all_led_yellow_off	8	static
+../Core/Src/light_traffic.c:63:6:all_led_green_on	8	static
+../Core/Src/light_traffic.c:67:6:all_led_green_off	8	static

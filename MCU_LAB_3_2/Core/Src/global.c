@@ -13,5 +13,4 @@ int red_time = 7;
 int yellow_time = 5;
 int green_time = 2;
 
-
 #endif /* SRC_GLOBAL_C_ */
