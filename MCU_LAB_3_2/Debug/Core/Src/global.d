@@ -25,7 +25,7 @@ Core/Src/global.o: ../Core/Src/global.c ../Core/Inc/global.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Core/Inc/fsm_autorun.h ../Core/Inc/fsm_manual.h
+ ../Core/Inc/fsm_autorun.h ../Core/Inc/fsm_setting.h
 ../Core/Inc/global.h:
 ../Core/Inc/led7_segment.h:
 ../Core/Inc/light_traffic.h:
@@ -57,4 +57,4 @@ Core/Src/global.o: ../Core/Src/global.c ../Core/Inc/global.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Core/Inc/fsm_autorun.h:
-../Core/Inc/fsm_manual.h:
+../Core/Inc/fsm_setting.h:

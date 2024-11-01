@@ -9,7 +9,15 @@
 int status_fsm = INIT;
 int index_led = 0;
 void fsm_autorun(){
-	if(button_flag[0] && status_fsm <= INIT) status_fsm = INIT_MANUAL;
+	if(button_flag[0] && status_fsm < INIT){
+			status_fsm += 5;
+			setTimer(3,250);
+			update7SegBuffer(0, 0);
+			update7SegBuffer(1, 1);
+			update7SegBuffer(2, 0);
+			update7SegBuffer(3, 1);
+			button_flag[0] = 0;
+	}
 	switch(status_fsm){
 	case INIT:
 		status_fsm = RED_GREEN;

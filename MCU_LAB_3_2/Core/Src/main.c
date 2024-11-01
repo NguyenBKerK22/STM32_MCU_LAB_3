@@ -110,6 +110,7 @@ int main(void)
 //	  }
 	  fsm_autorun();
 	  fsm_manual();
+	  fsm_setting();
 	//  all_led_yellow_on();
 //	  led_red_and_green();
   }
